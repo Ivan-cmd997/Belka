@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Кафе «Белка» — сэндвичи, десерты и кофе на Патриарших</title>
+<meta name="description" content="Кафе «Белка» на Малой Бронной: сэндвичи на закваске, домашние десерты и кофе своей обжарки. Собираем вкусное по орешку.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<!-- ================= ТОП-БАР ================= -->
+<div class="topbar">
+  <div class="wrap topbar__inner">
+    <span class="topbar__item">с 08:00 до 23:00</span>
+    <span class="topbar__sep"></span>
+    <span class="topbar__item">Малая Бронная, 24, стр. 1</span>
+    <span class="topbar__sep"></span>
+    <a class="topbar__item topbar__phone" href="tel:+74951234567">+7 (495) 123-45-67</a>
+  </div>
+</div>
+
+<!-- ================= ШАПКА ================= -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a href="#top" class="logo" aria-label="Кафе Белка — на главную">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <path d="M20 4c6 0 9 4 9 9 0 4-3 6-3 9 0 3 5 4 5 9 0 3-3 5-8 5H14c-4 0-6-2-6-5 0-6 8-8 8-13 0-3-3-4-3-8 0-3 2-6 7-6z" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="17" cy="13" r="1.5" fill="currentColor"/>
+          <path d="M25.5 30.5c4-2 6.5-6 6.5-11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="logo__text">Белка<em>кафе</em></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#about">О кафе</a>
+      <a href="#gallery">Атмосфера</a>
+      <a href="#menu">Меню</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <a href="#contacts" class="btn btn--ghost header__cta">Забронировать стол</a>
+
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= ГЛАВНЫЙ ЭКРАН ================= -->
+<section class="hero" id="top">
+  <div class="hero__media">
+    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=2400&q=80"
+         alt="Светлый зал кафе с деревянными столами и мягким светом">
+  </div>
+  <div class="hero__shade"></div>
+
+  <div class="wrap hero__content">
+    <p class="hero__eyebrow">Москва · Патриаршие пруды · с 2019 года</p>
+    <h1 class="hero__title">Кафе<br><span>«Белка»</span></h1>
+    <p class="hero__slogan">Собираем вкусное по орешку.</p>
+    <div class="hero__actions">
+      <a href="#menu" class="btn btn--solid">Смотреть меню</a>
+      <a href="#about" class="btn btn--ghost">О кафе</a>
+    </div>
+  </div>
+
+  <div class="hero__ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>Сэндвичи на закваске</span><i>✷</i>
+      <span>Десерты своей кондитерской</span><i>✷</i>
+      <span>Кофе собственной обжарки</span><i>✷</i>
+      <span>Завтраки до 13:00</span><i>✷</i>
+      <span>Сэндвичи на закваске</span><i>✷</i>
+      <span>Десерты своей кондитерской</span><i>✷</i>
+      <span>Кофе собственной обжарки</span><i>✷</i>
+      <span>Завтраки до 13:00</span><i>✷</i>
+    </div>
+  </div>
+</section>
+
+<!-- ================= СЛОГАНЫ ================= -->
+<section class="slogans">
+  <div class="wrap slogans__grid">
+    <blockquote class="slogan reveal">
+      <span class="slogan__num">01</span>
+      <p>Тепло, как в дупле,<br>вкусно, как дома</p>
+    </blockquote>
+    <blockquote class="slogan reveal">
+      <span class="slogan__num">02</span>
+      <p>Сэндвич, десерт<br>и никакой спешки</p>
+    </blockquote>
+    <blockquote class="slogan reveal">
+      <span class="slogan__num">03</span>
+      <p>Запасаемся<br>хорошим настроением</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ================= О КАФЕ ================= -->
+<section class="about" id="about">
+  <div class="wrap about__inner">
+    <div class="about__text reveal">
+      <p class="section__label">О кафе</p>
+      <h2 class="section__title">Маленькое кафе<br>в двух шагах<br>от Патриарших</h2>
+      <p>«Белка» — это тридцать посадочных мест, открытая кухня и запах хлеба, который встречает вас прямо у двери. Мы задумывали место, куда заходят не «поесть», а побыть: с книгой, с работой, с человеком, которого давно не видели.</p>
+      <p>Хлеб печём сами на пшеничной закваске, овощи режем утром, а кофе обжариваем в соседнем помещении — на маленьком ростере по шесть килограммов. Всё, что можно сделать руками, мы делаем руками.</p>
+      <p>Десерты — отдельная гордость: медовик, ореховые тарты и морковный торт готовит наш кондитер Аня, и к семи вечера от них обычно уже ничего не остаётся.</p>
+      <div class="about__facts">
+        <div><b>30</b><span>мест в зале</span></div>
+        <div><b>6</b><span>сортов кофе<br>в обжарке</span></div>
+        <div><b>08:00</b><span>открываемся<br>каждый день</span></div>
+      </div>
+    </div>
+    <figure class="about__photo reveal">
+      <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1400&q=80"
+           alt="Барная стойка кафе с кофемашиной и витриной десертов" loading="lazy">
+      <figcaption>Барная стойка и витрина с десертами</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= АТМОСФЕРА ================= -->
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <p class="section__label section__label--center reveal">Атмосфера</p>
+    <h2 class="section__title section__title--center reveal">Как у нас устроено</h2>
+  </div>
+  <div class="wrap gallery__grid">
+    <figure class="gallery__item gallery__item--tall reveal">
+      <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=1200&q=80" alt="Столик у окна с чашкой кофе" loading="lazy">
+      <figcaption>Столики у окна</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80" alt="Свежий хлеб на пекарской полке" loading="lazy">
+      <figcaption>Хлеб на закваске каждое утро</figcaption>
+    </figure>
+    <figure class="gallery__item reveal">
+      <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=80" alt="Сэндвич на деревянной доске" loading="lazy">
+      <figcaption>Сэндвичи собираем под заказ</figcaption>
+    </figure>
+    <figure class="gallery__item gallery__item--wide reveal">
+      <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&w=1600&q=80" alt="Зал кафе с деревянной мебелью и растениями" loading="lazy">
+      <figcaption>Вечером в зале горят только тёплые лампы</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= МЕНЮ ================= -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <p class="section__label section__label--center reveal">Меню</p>
+    <h2 class="section__title section__title--center reveal">Небольшое, но всё<br>на своём месте</h2>
+    <p class="menu__note reveal">Меню обновляем посезонно. У каждой позиции указаны состав и выход — если нужно что-то убрать или заменить, скажите официанту.</p>
+
+    <div class="menu__tabs reveal" role="tablist" aria-label="Разделы меню">
+      <button class="menu__tab is-active" data-cat="sandwich" role="tab" aria-selected="true">Сэндвичи</button>
+      <button class="menu__tab" data-cat="dessert" role="tab" aria-selected="false">Десерты</button>
+      <button class="menu__tab" data-cat="drink" role="tab" aria-selected="false">Напитки</button>
+    </div>
+
+    <!-- Сэндвичи -->
+    <div class="menu__panel is-active" data-panel="sandwich">
+      <div class="menu__list">
+        <article class="dish">
+          <div class="dish__head"><h3>Сэндвич «Кедровый»</h3><span class="dish__dots"></span><span class="dish__price">590 ₽</span></div>
+          <p class="dish__desc">Ростбиф медленного запекания, руккола, обжаренные кедровые орехи, горчичный крем, чиабатта на закваске.</p>
+          <p class="dish__meta"><span>260 г</span><span>620 ккал</span><span class="tag tag--hit">хит</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Сэндвич «Дупло»</h3><span class="dish__dots"></span><span class="dish__price">520 ₽</span></div>
+          <p class="dish__desc">Томлёная индейка, страчателла, вяленые томаты, песто из базилика, хрустящий багет.</p>
+          <p class="dish__meta"><span>240 г</span><span>540 ккал</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Сэндвич «Лесник»</h3><span class="dish__dots"></span><span class="dish__price">640 ₽</span></div>
+          <p class="dish__desc">Слабосолёный лосось, крем-сыр с укропом, свежий огурец, каперсы, бородинский хлеб.</p>
+          <p class="dish__meta"><span>230 г</span><span>480 ккал</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Сэндвич «Грибной»</h3><span class="dish__dots"></span><span class="dish__price">560 ₽</span></div>
+          <p class="dish__desc">Лисички на сливочном масле, сыр таледжо, тимьян, карамелизованный лук, булка бриошь.</p>
+          <p class="dish__meta"><span>250 г</span><span>580 ккал</span><span class="tag">сезон</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Сэндвич «Зелёный»</h3><span class="dish__dots"></span><span class="dish__price">480 ₽</span></div>
+          <p class="dish__desc">Авокадо, яйцо пашот, молодой шпинат, семечки, соус из йогурта и лайма, зерновой хлеб.</p>
+          <p class="dish__meta"><span>220 г</span><span>430 ккал</span><span class="tag tag--veg">вег</span></p>
+        </article>
+      </div>
+      <figure class="menu__photo">
+        <img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=1000&q=80" alt="Сэндвич с зеленью на тарелке" loading="lazy">
+        <figcaption>Каждый сэндвич собираем после заказа</figcaption>
+      </figure>
+    </div>
+
+    <!-- Десерты -->
+    <div class="menu__panel" data-panel="dessert">
+      <div class="menu__list">
+        <article class="dish">
+          <div class="dish__head"><h3>Медовик «Белка»</h3><span class="dish__dots"></span><span class="dish__price">390 ₽</span></div>
+          <p class="dish__desc">Двенадцать тонких коржей, сметанный крем без лишнего сахара, крошка из грецкого ореха.</p>
+          <p class="dish__meta"><span>160 г</span><span>410 ккал</span><span class="tag tag--hit">хит</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Ореховый тарт</h3><span class="dish__dots"></span><span class="dish__price">420 ₽</span></div>
+          <p class="dish__desc">Песочная основа, солёная карамель, пекан и фундук, щепотка морской соли сверху.</p>
+          <p class="dish__meta"><span>130 г</span><span>490 ккал</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Чизкейк на кедровой основе</h3><span class="dish__dots"></span><span class="dish__price">410 ₽</span></div>
+          <p class="dish__desc">Нежный сливочный крем, основа из кедрового ореха и песочного печенья, ягодный соус.</p>
+          <p class="dish__meta"><span>150 г</span><span>450 ккал</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Морковный торт с фундуком</h3><span class="dish__dots"></span><span class="dish__price">380 ₽</span></div>
+          <p class="dish__desc">Влажный бисквит с корицей и апельсиновой цедрой, крем-чиз, жареный фундук.</p>
+          <p class="dish__meta"><span>170 г</span><span>430 ккал</span><span class="tag tag--veg">вег</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Вафли с ореховой пастой</h3><span class="dish__dots"></span><span class="dish__price">350 ₽</span></div>
+          <p class="dish__desc">Бельгийские вафли, домашняя фундучная паста, банан, шарик пломбира.</p>
+          <p class="dish__meta"><span>180 г</span><span>560 ккал</span><span class="tag">завтрак</span></p>
+        </article>
+      </div>
+      <figure class="menu__photo">
+        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=1000&q=80" alt="Кусок торта на тарелке" loading="lazy">
+        <figcaption>Кондитерский цех работает с шести утра</figcaption>
+      </figure>
+    </div>
+
+    <!-- Напитки -->
+    <div class="menu__panel" data-panel="drink">
+      <div class="menu__list">
+        <article class="dish">
+          <div class="dish__head"><h3>Фильтр-кофе Эфиопия</h3><span class="dish__dots"></span><span class="dish__price">250 ₽</span></div>
+          <p class="dish__desc">Свежая обжарка, ноты чёрной смородины и бергамота. Завариваем в V60 или кемексе.</p>
+          <p class="dish__meta"><span>250 мл</span><span>своя обжарка</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Капучино</h3><span class="dish__dots"></span><span class="dish__price">320 ₽</span></div>
+          <p class="dish__desc">Бленд Бразилии и Колумбии, фермерское молоко. На ореховом или овсяном — без доплаты.</p>
+          <p class="dish__meta"><span>300 мл</span><span>180 ккал</span><span class="tag tag--hit">хит</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Раф «Кедровый»</h3><span class="dish__dots"></span><span class="dish__price">380 ₽</span></div>
+          <p class="dish__desc">Эспрессо, сливки, сироп из кедрового ореха, ваниль. Наш самый «беличий» напиток.</p>
+          <p class="dish__meta"><span>300 мл</span><span>260 ккал</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Облепиховый чай с мёдом</h3><span class="dish__dots"></span><span class="dish__price">340 ₽</span></div>
+          <p class="dish__desc">Протёртая облепиха, мёд, апельсин, тимьян. Подаём в чайнике — хватает на двоих.</p>
+          <p class="dish__meta"><span>400 мл</span><span class="tag">сезон</span></p>
+        </article>
+        <article class="dish">
+          <div class="dish__head"><h3>Какао с маршмеллоу</h3><span class="dish__dots"></span><span class="dish__price">300 ₽</span></div>
+          <p class="dish__desc">Настоящий тёртый какао, молоко, маленькие маршмеллоу и щепотка корицы.</p>
+          <p class="dish__meta"><span>300 мл</span><span>290 ккал</span></p>
+        </article>
+      </div>
+      <figure class="menu__photo">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80" alt="Чашка капучино на столе" loading="lazy">
+        <figcaption>Ростер стоит прямо за стойкой</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= КОНТАКТЫ И КАРТА ================= -->
+<section class="contacts" id="contacts">
+  <div class="wrap contacts__inner">
+    <div class="contacts__info reveal">
+      <p class="section__label">Как нас найти</p>
+      <h2 class="section__title">Малая Бронная,<br>24, стр. 1</h2>
+      <p class="contacts__lead">Пять минут пешком от Патриарших прудов, вход со двора — ищите тёплую вывеску с белкой.</p>
+
+      <dl class="contacts__list">
+        <div><dt>Часы работы</dt><dd>Ежедневно, 08:00 — 23:00<br><span>завтраки до 13:00</span></dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+74951234567">+7 (495) 123-45-67</a></dd></div>
+        <div><dt>Почта</dt><dd><a href="mailto:hello@belka-cafe.ru">hello@belka-cafe.ru</a></dd></div>
+        <div><dt>Метро</dt><dd>Маяковская, Пушкинская, Тверская</dd></div>
+      </dl>
+
+      <a class="btn btn--solid" href="tel:+74951234567">Забронировать стол</a>
+    </div>
+
+    <div class="contacts__map reveal">
+      <iframe
+        title="Карта: кафе «Белка», Малая Бронная, 24, стр. 1, Москва"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=37.5811%2C55.7577%2C37.6051%2C55.7697&amp;layer=mapnik&amp;marker=55.7637%2C37.5931"
+        loading="lazy"></iframe>
+      <a class="contacts__maplink" href="https://www.openstreetmap.org/?mlat=55.7637&amp;mlon=37.5931#map=17/55.7637/37.5931" target="_blank" rel="noopener">Открыть карту большего размера ↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ПОДВАЛ ================= -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="logo__text logo__text--footer">Белка<em>кафе</em></span>
+      <p>Собираем вкусное по орешку.<br>Москва, Малая Бронная, 24, стр. 1</p>
+    </div>
+    <nav class="footer__nav">
+      <a href="#about">О кафе</a>
+      <a href="#gallery">Атмосфера</a>
+      <a href="#menu">Меню</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="footer__social">
+      <a href="#">Telegram</a>
+      <a href="#">VK</a>
+      <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© 2019—2026 Кафе «Белка»</span>
+    <span>Учебный проект для портфолио. Фотографии — Unsplash.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
